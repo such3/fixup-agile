@@ -73,6 +73,20 @@ export default function DocketDetailModal({ currentUser, docket, technicians, on
     setLoading(false);
   };
 
+  const handlePrint = () => {
+    const originalTitle = document.title;
+    const now = new Date();
+    const timestamp = now.toISOString().replace(/[:.]/g, '-').replace('T', '_').slice(0, 19);
+    const safeCategory = (docket.category || 'Fault-Docket').replace(/[^a-zA-Z0-9]/g, '_');
+    const safeId = docket.id.replace(/\//g, '-');
+    
+    document.title = `Docket_${safeId}_${safeCategory}_${timestamp}`;
+    window.print();
+    setTimeout(() => {
+      document.title = originalTitle;
+    }, 2000);
+  };
+
   // RBAC checks
   const isAdmin = currentUser?.role === 'Admin';
   const isTechnician = currentUser?.role === 'Technician';
@@ -538,7 +552,7 @@ export default function DocketDetailModal({ currentUser, docket, technicians, on
               <div className="no-print" style={{ display: 'flex', justifyContent: 'center', marginTop: 40 }}>
                 <button 
                   className="btn-primary" 
-                  onClick={() => window.print()}
+                  onClick={handlePrint}
                 >
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="20" height="20">
                     <polyline points="6 9 6 2 18 2 18 9" />
