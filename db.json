@@ -1,0 +1,323 @@
+{
+  "settings": {
+    "collegeName": "SDM College of Engineering & Technology, Dharwad",
+    "subtitle": "Digital Fault-Docket & Campus Issue Tracking Portal"
+  },
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Anant",
+      "role": "Admin",
+      "title": "Chief Maintenance Engineer (CME)",
+      "department": "Estate & Maintenance Office"
+    },
+    {
+      "id": "u-2",
+      "name": "Basavaraj",
+      "role": "Admin",
+      "title": "HOD Mechanical",
+      "department": "Mechanical Engineering"
+    },
+    {
+      "id": "u-3",
+      "name": "Sunita",
+      "role": "Complainant",
+      "title": "Professor EEE",
+      "department": "Electrical & Electronics Engineering"
+    },
+    {
+      "id": "u-4",
+      "name": "Vikram",
+      "role": "Complainant",
+      "title": "System Administrator",
+      "department": "Information Science & Engineering"
+    },
+    {
+      "id": "u-5",
+      "name": "Rajesh",
+      "role": "Complainant",
+      "title": "Lab Instructor",
+      "department": "Computer Science & Engineering"
+    },
+    {
+      "id": "u-6",
+      "name": "Sharma",
+      "role": "Complainant",
+      "title": "Hostel Warden",
+      "department": "Boys Hostel Block 1"
+    },
+    {
+      "id": "u-7",
+      "name": "Lakshmi",
+      "role": "Complainant",
+      "title": "Hostel Warden",
+      "department": "Girls Hostel Block 2"
+    },
+    {
+      "id": "u-8",
+      "name": "Nagappa",
+      "role": "Technician",
+      "title": "Senior Carpenter",
+      "department": "Estate & Maintenance Office"
+    },
+    {
+      "id": "u-9",
+      "name": "Shivanand",
+      "role": "Technician",
+      "title": "Senior Electrician",
+      "department": "Estate & Maintenance Office"
+    },
+    {
+      "id": "u-10",
+      "name": "Ramesh",
+      "role": "Technician",
+      "title": "Senior Plumber",
+      "department": "Estate & Maintenance Office"
+    },
+    {
+      "id": "u-11",
+      "name": "Manjunath",
+      "role": "Technician",
+      "title": "IT Support Specialist",
+      "department": "Estate & Maintenance Office"
+    },
+    {
+      "id": "u-12",
+      "name": "Suresh",
+      "role": "Technician",
+      "title": "Civil Works Supervisor",
+      "department": "Estate & Maintenance Office"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-1",
+      "name": "Computer Science & Engineering",
+      "code": "CSE",
+      "head": "Anant"
+    },
+    {
+      "id": "dept-2",
+      "name": "Mechanical Engineering",
+      "code": "MECH",
+      "head": "Basavaraj"
+    },
+    {
+      "id": "dept-3",
+      "name": "Electrical & Electronics Engineering",
+      "code": "EEE",
+      "head": "Sunita"
+    },
+    {
+      "id": "dept-4",
+      "name": "Civil Engineering",
+      "code": "CIV",
+      "head": "Patil"
+    },
+    {
+      "id": "dept-5",
+      "name": "Electronics & Communication Engineering",
+      "code": "ECE",
+      "head": "Ramesh"
+    },
+    {
+      "id": "dept-6",
+      "name": "Information Science & Engineering",
+      "code": "ISE",
+      "head": "Vinay"
+    },
+    {
+      "id": "dept-7",
+      "name": "Boys Hostel Block 1",
+      "code": "BH1",
+      "head": "Sharma"
+    },
+    {
+      "id": "dept-8",
+      "name": "Girls Hostel Block 2",
+      "code": "GH2",
+      "head": "Lakshmi"
+    },
+    {
+      "id": "dept-9",
+      "name": "Library & Information Center",
+      "code": "LIB",
+      "head": "Chief Librarian"
+    },
+    {
+      "id": "dept-10",
+      "name": "Sports & Gymkhana",
+      "code": "SPORTS",
+      "head": "Physical Education Director"
+    },
+    {
+      "id": "dept-11",
+      "name": "Estate & Maintenance Office",
+      "code": "ESTATE",
+      "head": "Anant"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Door & Window Repair Work",
+      "description": "Locks, latches, glass panes, hinges, and wooden frames"
+    },
+    {
+      "id": "cat-2",
+      "name": "Electrical & Wiring Issues",
+      "description": "Lighting, fans, MCB tripping, power sockets, and switches"
+    },
+    {
+      "id": "cat-3",
+      "name": "Plumbing & Water Supply",
+      "description": "Leaky pipes, taps, washrooms, drinking water filters, and drainage"
+    },
+    {
+      "id": "cat-4",
+      "name": "IT & Network Infrastructure",
+      "description": "Wi-Fi routers, LAN switches, ethernet cables, and smart boards"
+    },
+    {
+      "id": "cat-5",
+      "name": "Carpentry & Furniture",
+      "description": "Desks, benches, chairs, podiums, and storage cabinets"
+    },
+    {
+      "id": "cat-6",
+      "name": "Air Conditioning & HVAC",
+      "description": "AC servicing, gas refilling, cooling issues, and exhaust fans"
+    },
+    {
+      "id": "cat-7",
+      "name": "Lab Equipment Maintenance",
+      "description": "Testing machines, oscilloscopes, power supplies, and specialized tools"
+    },
+    {
+      "id": "cat-8",
+      "name": "Civil & Structural Repair",
+      "description": "Wall cracks, roof seepage, floor tiling, and painting work"
+    }
+  ],
+  "technicians": [
+    {
+      "id": "tech-1",
+      "name": "Nagappa",
+      "specialization": "Carpentry & General Maintenance"
+    },
+    {
+      "id": "tech-2",
+      "name": "Shivanand",
+      "specialization": "Electrical & Wiring"
+    },
+    {
+      "id": "tech-3",
+      "name": "Ramesh",
+      "specialization": "Plumbing & Sanitization"
+    },
+    {
+      "id": "tech-4",
+      "name": "Manjunath",
+      "specialization": "IT & Network Support"
+    },
+    {
+      "id": "tech-5",
+      "name": "Suresh",
+      "specialization": "Civil Works & Painting"
+    }
+  ],
+  "dockets": [
+    {
+      "id": "CME/2026/0001",
+      "complaintGivenBy": "Anant",
+      "department": "Computer Science & Engineering",
+      "category": "Door & Window Repair Work",
+      "description": "Door lock jammed and window latch broken in Lab 3. Requires immediate replacement to secure lab equipment.",
+      "location": "Lab 3, 2nd Floor",
+      "priority": "Medium",
+      "status": "Closed",
+      "createdAt": "2026-05-10T10:30:00.000Z",
+      "receivedBy": "Nagappa",
+      "receivedAt": "2026-05-10T11:00:00.000Z",
+      "issuedTo": "Nagappa",
+      "issuedAt": "2026-05-10T11:15:00.000Z",
+      "rectifiedBy": "Nagappa",
+      "rectifiedAt": "2026-05-11T14:30:00.000Z",
+      "rectificationDetails": "Replaced door lock cylinder with premium brass lock and fitted new heavy-duty window latch.",
+      "userRemarks": "Work completed satisfactorily. Lock is functioning smoothly and securely.",
+      "userName": "Anant",
+      "siteEngineer": "CME Approved - Patil",
+      "closedAt": "2026-05-12T09:30:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "CME/2026/0002",
+      "complaintGivenBy": "Sunita",
+      "department": "Electrical & Electronics Engineering",
+      "category": "Electrical & Wiring Issues",
+      "description": "Main distribution board tripping frequently during heavy load in Staff Room 102. Causing disruption to workstations.",
+      "location": "Staff Room 102, 1st Floor",
+      "priority": "High",
+      "status": "Rectified",
+      "createdAt": "2026-05-15T09:15:00.000Z",
+      "receivedBy": "Shivanand",
+      "receivedAt": "2026-05-15T09:45:00.000Z",
+      "issuedTo": "Shivanand",
+      "issuedAt": "2026-05-15T10:00:00.000Z",
+      "rectifiedBy": "Shivanand",
+      "rectifiedAt": "2026-05-16T16:00:00.000Z",
+      "rectificationDetails": "Identified overloaded phase. Replaced faulty 32A MCB and balanced load across distribution busbars.",
+      "userRemarks": "",
+      "userName": "",
+      "siteEngineer": "",
+      "closedAt": null,
+      "imageUrl": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "CME/2026/0003",
+      "complaintGivenBy": "Vikram",
+      "department": "Information Science & Engineering",
+      "category": "Plumbing & Water Supply",
+      "description": "Water leakage from ceiling pipe directly above server rack B. High risk of electrical short and hardware damage.",
+      "location": "Server Room B, Ground Floor",
+      "priority": "Urgent",
+      "status": "Closed",
+      "createdAt": "2026-05-17T08:20:00.000Z",
+      "receivedBy": "Ramesh",
+      "receivedAt": "2026-05-17T08:50:00.000Z",
+      "issuedTo": "Ramesh",
+      "issuedAt": "2026-05-17T09:05:00.000Z",
+      "rectifiedBy": "Anant",
+      "rectifiedAt": "2026-05-17T14:27:45.061Z",
+      "rectificationDetails": "dsd s",
+      "userRemarks": "",
+      "userName": "Anant",
+      "siteEngineer": "CME Approved - Patil",
+      "closedAt": "2026-05-17T14:27:48.236Z",
+      "imageUrl": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "CME/2026/0004",
+      "complaintGivenBy": "Rajesh",
+      "department": "Mechanical Engineering",
+      "category": "IT & Network Infrastructure",
+      "description": "Network switch port dead in CAD Lab. 4 student workstations are unable to connect to the campus license server.",
+      "location": "CAD Lab, Ground Floor",
+      "priority": "Low",
+      "status": "Submitted",
+      "createdAt": "2026-05-17T11:45:00.000Z",
+      "receivedBy": "",
+      "receivedAt": null,
+      "issuedTo": "",
+      "issuedAt": null,
+      "rectifiedBy": "",
+      "rectifiedAt": null,
+      "rectificationDetails": "",
+      "userRemarks": "",
+      "userName": "",
+      "siteEngineer": "",
+      "closedAt": null,
+      "imageUrl": ""
+    }
+  ]
+}
